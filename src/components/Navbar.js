@@ -9,10 +9,7 @@ const Navbar = () => {
             <a className="navbar-item">
               <h1>LOGO</h1>
             </a>
-            <span
-              className="navbar-burger burger"
-              data-target="navbarMenuHeroC"
-            >
+            <span className="navbar-burger burger" data-target="navbarMenuHeroC">
               <span />
               <span />
               <span />
@@ -20,11 +17,11 @@ const Navbar = () => {
           </div>
           <div id="navbarMenuHeroC" className="navbar-menu">
             <div className="navbar-end">
-              <a className="navbar-item is-active">Home</a>
-              <a className="navbar-item">About</a>
-              <a className="navbar-item">Portfolio</a>
+              <a href="/" className="navbar-item is-active">Home</a>
+              <a href="#about" className="navbar-item">About</a>
+              <a href="#portfolio" className="navbar-item">Portfolio</a>
               <span className="navbar-item">
-                <a className="button is-success is-inverted is-outlined">
+                <a href="#contact" className="button is-success is-inverted is-outlined">
                   <span>Contact Me</span>
                 </a>
               </span>

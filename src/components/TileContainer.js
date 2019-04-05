@@ -9,7 +9,7 @@ import ThrivingCities from './tiles/ThrivingCities';
 export default class TileContainer extends Component {
   render() {
     return (
-        <section className="section hero is-fullheight">
+        <section id="portfolio" className="section hero is-fullheight">
             <div className="tile is-ancestor">
               <div className="tile is-vertical">
                   <LumiFlow />

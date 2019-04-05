@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import HomeCard from './components/HomeCard';
 import Navbar from './components/Navbar';
 import TileContainer from  './components/TileContainer';
+import About from './components/About';
+import Contact from './components/Contact';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +15,8 @@ class App extends Component {
           <HomeCard />
         </section>
         <TileContainer />
+        <About />
+        <Contact />
       </div>
     );
   }
