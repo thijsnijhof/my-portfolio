@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import OpenModal from '../modal/OpenModal';
 
 const NameGenerator = () => {
   return (
@@ -7,6 +8,7 @@ const NameGenerator = () => {
         <article className="tile is-child box">
             <p className="title">NameGenerator</p>
             <p className="subtitle">What is up?</p>
+            <OpenModal />
         </article>
     </div>
 

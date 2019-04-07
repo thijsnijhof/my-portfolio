@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import OpenModal from '../modal/OpenModal';
 
 const Tutaki = () => {
   return (
@@ -6,9 +7,10 @@ const Tutaki = () => {
         <article className="tile is-child box">
             <p className="title">Tutaki</p>
             <p className="subtitle">What is up?</p>
+            <OpenModal />
         </article>
     </div>
   )
 }
 
-export default Tutaki
+export default Tutaki;

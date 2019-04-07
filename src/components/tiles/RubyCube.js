@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import OpenModal from '../modal/OpenModal';
 
 const RubyCube = () => {
   return (
@@ -6,9 +7,10 @@ const RubyCube = () => {
         <article className="tile is-child box">
             <p className="title">RubyCube</p>
             <p className="subtitle">What is up?</p>
+            <OpenModal />
         </article>
     </div>
   )
 }
 
-export default RubyCube
+export default RubyCube;
