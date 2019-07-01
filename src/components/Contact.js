@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Contact extends Component {
   render() {
     return (
-      <section id="about" className="section hero is-fullheight">
+      <section id="contact-me" className="section hero is-fullheight">
       <div className="content column is-half is-offset-one-quarter is-medium is-centered">
         <h1 className="title is-2">Contact me</h1>
         

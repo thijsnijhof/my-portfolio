@@ -1,4 +1,8 @@
 import React from "react";
+import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Logo from '../assets/Logo.svg';
 
 const Navbar = () => {
   return (
@@ -7,7 +11,7 @@ const Navbar = () => {
         <div className="container">
           <div className="navbar-brand">
             <a className="navbar-item">
-              <h1>LOGO</h1>
+              <img src={Logo} width="112" height="28"/>
             </a>
             <span className="navbar-burger burger" data-target="navbarMenuHeroC">
               <span />
@@ -21,8 +25,8 @@ const Navbar = () => {
               <a href="#about" className="navbar-item">About</a>
               <a href="#portfolio" className="navbar-item">Portfolio</a>
               <span className="navbar-item">
-                <a href="#contact" className="button is-success is-inverted is-outlined">
-                  <span>Contact Me</span>
+                <a id="contact" href="#contact-me" className="button link-button link-button-bg" >
+                <FontAwesomeIcon icon={faEnvelope} style={{marginRight:'.75rem'}}/><span>Contact Me</span>
                 </a>
               </span>
             </div>

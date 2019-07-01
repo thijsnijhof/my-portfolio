@@ -1,0 +1,35 @@
+#contact.link-button {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 12px 10px -7px rgba(0,0,0,0.2);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-decoration: none;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1.875em;
+    text-overflow: ellipsis;
+    transition: transform .15s ease-in-out, box-shadow .15s ease-in-out;
+    white-space: nowrap;
+    will-change: transform;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: linear-gradient(135deg, transparent 7px, #f1f1f1 7px, #f7f7f7 100%);
+}
+#contact.link-button-bg {
+    background: linear-gradient(135deg, transparent 7px, #F58220 7px, #FDBA12 100%);
+
+}
+#contact.link-button-bg:hover{
+    /* background: linear-gradient(135deg, transparent 7px, #F58220 7px, #FDBA12 100%); */
+    background:linear-gradient(135deg, transparent 7px, #f57720 7px, #f57720 100%);
+    /* background:linear-gradient(135deg, transparent 7px, #008145 7px, #82C341 100%); */
+
+    box-shadow: 0 12px 10px -7px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
