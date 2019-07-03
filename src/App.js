@@ -9,6 +9,10 @@ import './App.css';
 
 class App extends Component {
   render() {
+    const vcentered = {
+      display:'flex',
+      justifyContent: 'center'
+    }
     return (
       <div className="App">
         <section className=" section hero is-success is-bold is-fullheight">
@@ -16,8 +20,8 @@ class App extends Component {
           <HomeCard />
         </section>
         <TileContainer />
-        <About />
-        <Contact />
+        <About vcentered={vcentered} />
+        <Contact vcentered={vcentered} />
         <Footer />
       </div>
     );
