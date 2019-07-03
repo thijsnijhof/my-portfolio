@@ -3,8 +3,8 @@
         {
             "name": "Tutaki",
             "content": "The Tutaki app was my graduation assignment. The app let's people arrange meetups at restaurants. During the assignment I was responsible for the UI/UX design, creating several prototypes and testing with users. I implemented this a a PWA using React, Redux and Firebase.",
-            "githubURL": "/",
-            "liveURL": "/",
+            "githubURL": "https://github.com/thijsnijhof/tutaki",
+            "liveURL": "https://tutaki-proto.firebaseapp.com/",
             "stack": [
                 "React",
                 "Redux",
@@ -14,9 +14,9 @@
         },
         {
             "name": "Meteorite",
-            "content": "Meteorite content",
-            "githubURL": "/",
-            "liveURL": "/",
+            "content": "This app was part of the Chingo.io pre-work application process. The app filters through a large dataset of meteorites and displays their information. The data is queried via the url using the SODA API.",
+            "githubURL": "https://github.com/thijsnijhof/meteorite",
+            "liveURL": "https://elated-shockley-141fd6.netlify.com/",
             "stack": [
                 "React",
                 "SODA API",
@@ -25,8 +25,8 @@
         },
         {
             "name": "Lumiflow",
-            "content": "Lumiflow content",
-            "githubURL": "/",
+            "content": "Lumiflow is an interactive light installation. This app is a dashboard that allows the owner of Lumiflow to update his master and slave device settings. By connecting with the Particle.io IOT cloud API, the devices can now be updated through the cloud without needing to physically interact with the Arduino device.",
+            "githubURL": "https://github.com/thijsnijhof/protoDashboard",
             "liveURL": "/",
             "stack": [
                 "VueJS",
@@ -36,7 +36,7 @@
         },
         {
             "name": "MappyPals",
-            "content": "MappyPals content",
+            "content": "MappyPals is an open-source project from the Zero to Mastery community. My role in this project is Design & Frontend Lead. I'm responsible for the UI/UX design, writing the pull request guide and contributing to the frontend code.",
             "githubURL": "/",
             "liveURL": "/",
             "stack": [
@@ -47,8 +47,8 @@
         },
         {
             "name": "Moviefy",
-            "content": "Moviefy content",
-            "githubURL": "/",
+            "content": "Moviefy is a movie review website. Users can upload reviews of their favorite movies. Administrators can manage users, reviews and categories via an admin dashboard.",
+            "githubURL": "https://github.com/thijsnijhof/moviefy",
             "liveURL": "/",
             "stack": [
                 "PHP",
