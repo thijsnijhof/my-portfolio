@@ -1,7 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../assets/Logo.svg';
 
 const Navbar = () => {
@@ -25,8 +25,13 @@ const Navbar = () => {
               <a href="#about" className="navbar-item">About</a>
               <a href="#portfolio" className="navbar-item">Portfolio</a>
               <span className="navbar-item">
+                <a id="resume" href="#contact-me" className="button link-button" >
+                  <FontAwesomeIcon icon={faFileDownload} style={{marginRight:'.75rem'}}/><span>Resume</span>
+                </a>
+              </span>
+              <span className="navbar-item">
                 <a id="contact" href="#contact-me" className="button link-button link-button-bg" >
-                <FontAwesomeIcon icon={faEnvelope} style={{marginRight:'.75rem'}}/><span>Contact Me</span>
+                  <FontAwesomeIcon icon={faEnvelope} style={{marginRight:'.75rem'}}/><span>Contact Me</span>
                 </a>
               </span>
             </div>

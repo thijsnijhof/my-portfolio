@@ -1,4 +1,4 @@
-#contact.link-button {
+#contact.link-button, #resume.link-button {
     border-radius: 0;
     border: none;
     box-shadow: 0 12px 10px -7px rgba(0,0,0,0.2);
@@ -23,12 +23,22 @@
 }
 #contact.link-button-bg {
     background: linear-gradient(135deg, transparent 7px, #F58220 7px, #FDBA12 100%);
-
+    transition:all 300ms ease-in-out;
 }
+#resume.link-button {
+    color:#20bc56;
+    transition:all 300ms ease-in-out;
+}
+#resume.link-button:hover {
+    color:#0c8b39;
+    transform:scale(1.05);
+}
+
 #contact.link-button-bg:hover{
     /* background: linear-gradient(135deg, transparent 7px, #F58220 7px, #FDBA12 100%); */
     background:linear-gradient(135deg, transparent 7px, #f57720 7px, #f57720 100%);
     /* background:linear-gradient(135deg, transparent 7px, #008145 7px, #82C341 100%); */
+    transform:scale(1.05);
 
     box-shadow: 0 12px 10px -7px rgba(0,0,0,0.2);
     color: #ffffff;

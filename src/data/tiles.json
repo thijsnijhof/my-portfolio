@@ -2,9 +2,9 @@
     "projects": [
         {
             "name": "Tutaki",
-            "content": "Tutaki content",
+            "content": "The Tutaki app was my graduation assignment. The app let's people arrange meetups at restaurants. During the assignment I was responsible for the UI/UX design, creating several prototypes and testing with users. I implemented this a a PWA using React, Redux and Firebase.",
             "githubURL": "/",
-            "liveURL":"/",
+            "liveURL": "/",
             "stack": [
                 "React",
                 "Redux",
@@ -16,7 +16,7 @@
             "name": "Meteorite",
             "content": "Meteorite content",
             "githubURL": "/",
-            "liveURL":"/",
+            "liveURL": "/",
             "stack": [
                 "React",
                 "SODA API",
@@ -27,7 +27,7 @@
             "name": "Lumiflow",
             "content": "Lumiflow content",
             "githubURL": "/",
-            "liveURL":"/",
+            "liveURL": "/",
             "stack": [
                 "VueJS",
                 "Arduino",
@@ -36,8 +36,9 @@
         },
         {
             "name": "MappyPals",
-            "content": "MappyPals content","githubURL": "/",
-            "liveURL":"/",
+            "content": "MappyPals content",
+            "githubURL": "/",
+            "liveURL": "/",
             "stack": [
                 "React",
                 "NodeJS",
@@ -48,7 +49,7 @@
             "name": "Moviefy",
             "content": "Moviefy content",
             "githubURL": "/",
-            "liveURL":"/",
+            "liveURL": "/",
             "stack": [
                 "PHP",
                 "Laravel",
@@ -60,7 +61,7 @@
             "name": "Wordpress",
             "content": "Wordpress content",
             "githubURL": "/",
-            "liveURL":"/",
+            "liveURL": "/",
             "stack": [
                 "WordPress",
                 "PHP",

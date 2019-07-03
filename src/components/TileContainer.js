@@ -5,7 +5,6 @@ import Tile from "../components/tiles/Tile";
 import portfolio from "../data/tiles.json";
 
 const TileContainer = () => {
-  console.log(portfolio);
   const projects = portfolio.projects.map((project, i) => {
     return (
       <Tile

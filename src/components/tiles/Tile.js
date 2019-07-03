@@ -6,18 +6,19 @@ import GithubButton from "../GithubButton";
 import WebButton from "../WebButton";
 
 const Tile = ({ name, content, githubURL, liveURL, stack }) => {
+  const tag = stack.map((tag, i) => {
+    return (
+      <span key={i} className="tag is-light">
+        {tag}
+      </span>
+    );
+  })
   return (
     <div className="tile is-parent ">
       <article className="tile is-child box ">
         <p className="title">{name}</p>
         <div className="tags are-medium is-centered">
-          {stack.map((tag, i) => {
-            return (
-              <span key={i} className="tag is-light">
-                {tag}
-              </span>
-            );
-          })}
+          {tag}
         </div>
         <div className="content">{content}</div>
         <div className="buttons is-centered">

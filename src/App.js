@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import TileContainer from  './components/TileContainer';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
         <TileContainer />
         <About />
         <Contact />
+        <Footer />
       </div>
     );
   }
