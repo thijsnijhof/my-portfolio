@@ -1,0 +1,72 @@
+{
+    "projects": [
+        {
+            "name": "Tutaki",
+            "content": "Tutaki content",
+            "githubURL": "/",
+            "liveURL":"/",
+            "stack": [
+                "React",
+                "Redux",
+                "Firebase",
+                "UI/UX Design"
+            ]
+        },
+        {
+            "name": "Meteorite",
+            "content": "Meteorite content",
+            "githubURL": "/",
+            "liveURL":"/",
+            "stack": [
+                "React",
+                "SODA API",
+                "Bulma"
+            ]
+        },
+        {
+            "name": "Lumiflow",
+            "content": "Lumiflow content",
+            "githubURL": "/",
+            "liveURL":"/",
+            "stack": [
+                "VueJS",
+                "Arduino",
+                "Particle.io"
+            ]
+        },
+        {
+            "name": "MappyPals",
+            "content": "MappyPals content","githubURL": "/",
+            "liveURL":"/",
+            "stack": [
+                "React",
+                "NodeJS",
+                "UI/UX Design"
+            ]
+        },
+        {
+            "name": "Moviefy",
+            "content": "Moviefy content",
+            "githubURL": "/",
+            "liveURL":"/",
+            "stack": [
+                "PHP",
+                "Laravel",
+                "jQuery",
+                "Bootstrap"
+            ]
+        },
+        {
+            "name": "Wordpress",
+            "content": "Wordpress content",
+            "githubURL": "/",
+            "liveURL":"/",
+            "stack": [
+                "WordPress",
+                "PHP",
+                "JavaScript",
+                "CSS"
+            ]
+        }
+    ]
+}
